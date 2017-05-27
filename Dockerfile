@@ -48,7 +48,7 @@ RUN mkdir -p /etc/service/gekko; ln -s /service_start_gekko.sh /etc/service/gekk
 ########################
 
 #Enable plugins
-RUN npm install redis@0.10.0 talib@1.0.2 pg
+RUN npm install redis@0.10.0 talib@1.0.2 pg emailjs
 
 VOLUME /usr/src/gekko/history
 
