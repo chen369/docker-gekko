@@ -36,7 +36,7 @@ RUN mkdir -p /usr/src/gekko
 WORKDIR /usr/src/gekko
 
 #Download & setup Gekko trading bot
-RUN git clone -b stable https://github.com/marcuslopes/gekko.git .; \
+RUN git clone -b stable https://github.com/askmike/gekko.git .; \
     npm install; \
     npm install
 
